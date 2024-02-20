@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jobsity.domain.TenPinBowlingScoreCalculationGameTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2023-12-29T17:52:55" hostname="Tiagos-MacBook-Air.local" time="0.057">
+  <properties/>
+  <testcase name="shouldCalculatePlayerPerfectedScoreCorrectly()" classname="com.jobsity.domain.TenPinBowlingScoreCalculationGameTest" time="0.035"/>
+  <testcase name="shouldThrowErrorFreeTextScore()" classname="com.jobsity.domain.TenPinBowlingScoreCalculationGameTest" time="0.003"/>
+  <testcase name="shouldThrowErrorNegativeScore()" classname="com.jobsity.domain.TenPinBowlingScoreCalculationGameTest" time="0.002"/>
+  <testcase name="shouldSaveScoreCorrectly()" classname="com.jobsity.domain.TenPinBowlingScoreCalculationGameTest" time="0.003"/>
+  <testcase name="shouldThrowErrorWithExtraScore()" classname="com.jobsity.domain.TenPinBowlingScoreCalculationGameTest" time="0.002"/>
+  <testcase name="shouldLoadPlayerAndCalculateCorrectly()" classname="com.jobsity.domain.TenPinBowlingScoreCalculationGameTest" time="0.002"/>
+  <testcase name="shouldThrowErrorEmptyScore()" classname="com.jobsity.domain.TenPinBowlingScoreCalculationGameTest" time="0.002"/>
+  <testcase name="shouldThrowErrorInvalidScore()" classname="com.jobsity.domain.TenPinBowlingScoreCalculationGameTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Dec 29, 2023 2:52:55 PM com.jobsity.domain.impl.TenPinBowlingScoreCalculationGameImpl loadPlayers
+INFO: loading players
+Dec 29, 2023 2:52:55 PM com.jobsity.domain.impl.TenPinBowlingScoreCalculationGameImpl loadPlayers
+INFO: loading players
+Dec 29, 2023 2:52:55 PM com.jobsity.domain.impl.TenPinBowlingScoreCalculationGameImpl loadPlayers
+INFO: loading players
+Dec 29, 2023 2:52:55 PM com.jobsity.domain.impl.TenPinBowlingScoreCalculationGameImpl loadPlayers
+INFO: loading players
+Dec 29, 2023 2:52:55 PM com.jobsity.domain.impl.TenPinBowlingScoreCalculationGameImpl saveScore
+INFO: saving score
+Dec 29, 2023 2:52:55 PM com.jobsity.domain.impl.TenPinBowlingScoreCalculationGameImpl loadPlayers
+INFO: loading players
+Dec 29, 2023 2:52:55 PM com.jobsity.domain.impl.TenPinBowlingScoreCalculationGameImpl loadPlayers
+INFO: loading players
+Dec 29, 2023 2:52:55 PM com.jobsity.domain.impl.TenPinBowlingScoreCalculationGameImpl loadPlayers
+INFO: loading players
+Dec 29, 2023 2:52:55 PM com.jobsity.domain.impl.TenPinBowlingScoreCalculationGameImpl loadPlayers
+INFO: loading players
+]]></system-err>
+</testsuite>

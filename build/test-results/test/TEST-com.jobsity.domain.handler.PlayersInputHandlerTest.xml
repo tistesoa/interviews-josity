@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jobsity.domain.handler.PlayersInputHandlerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-12-29T17:52:55" hostname="Tiagos-MacBook-Air.local" time="0.009">
+  <properties/>
+  <testcase name="shouldThrowErrorFreeTextScore()" classname="com.jobsity.domain.handler.PlayersInputHandlerTest" time="0.001"/>
+  <testcase name="shouldThrowErrorNegativeScore()" classname="com.jobsity.domain.handler.PlayersInputHandlerTest" time="0.0"/>
+  <testcase name="shouldThrowErrorWithExtraScore()" classname="com.jobsity.domain.handler.PlayersInputHandlerTest" time="0.001"/>
+  <testcase name="shouldThrowErrorEmptyScore()" classname="com.jobsity.domain.handler.PlayersInputHandlerTest" time="0.001"/>
+  <testcase name="shouldLoadPerfectedPlayerCorrectly()" classname="com.jobsity.domain.handler.PlayersInputHandlerTest" time="0.001"/>
+  <testcase name="shouldLoadPlayersCorrectly()" classname="com.jobsity.domain.handler.PlayersInputHandlerTest" time="0.001"/>
+  <testcase name="shouldThrowErrorInvalidScore()" classname="com.jobsity.domain.handler.PlayersInputHandlerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

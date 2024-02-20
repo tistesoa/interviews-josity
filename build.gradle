@@ -1,0 +1,45 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+group 'com.jobsity'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.30'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.1'
+}
+
+application {
+    mainClass = 'com.jobsity.application.TenPinBowlingScoreCalculationApp'
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'com.jobsity.application.TenPinBowlingScoreCalculationApp' // Change this to the fully qualified name of your main class
+        )
+    }
+}
+
+tasks.register('runMain', JavaExec) {
+    dependsOn 'classes'
+    mainClass = 'com.jobsity.application.TenPinBowlingScoreCalculationApp'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+test {
+    useJUnitPlatform()
+}
